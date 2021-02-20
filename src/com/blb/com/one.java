@@ -10,8 +10,7 @@ import java.io.IOException;
 public class one extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("yes");
-        System.out.println("yes");
-        System.out.println("yes");
+        System.out.println("one");
+
     }
 }
